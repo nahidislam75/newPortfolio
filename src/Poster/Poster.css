@@ -1,0 +1,69 @@
+.middling{
+    padding: 200px;
+}
+.forBackground{
+    background-image: url("https://ibb.co/StBM5Ld");
+}
+.box2{
+    font-size: 32px;
+    color: aqua;
+}
+.word{
+    display: inline-block;
+}
+.word span{
+    position: absolute;
+    /* top: 0; */
+    opacity: 0;
+    overflow: hidden;
+    animation: animate1 10s linear infinite;
+
+}
+@keyframes animate1
+{
+    0%
+    {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    2%
+    {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    18%
+    {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    20%
+    {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%
+    {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+}
+.word span:nth-child(1)
+{
+    animation-delay: 0s;
+}
+.word span:nth-child(2)
+{
+    animation-delay: 2s;
+}
+.word span:nth-child(3)
+{
+    animation-delay: 4s;
+}
+.word span:nth-child(4)
+{
+    animation-delay: 6s;
+}
+.word span:nth-child(5)
+{
+    animation-delay: 8s;
+}

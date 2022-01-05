@@ -10,7 +10,7 @@ class Cards extends Component {
         <div className="box">
           <span></span>
           <div className="content">
-            <h2>Card {this.props.blogs.id}</h2>
+            <h2>Blog {this.props.blogs.id}</h2>
             <p>{this.props.blogs.title}</p>
             <a href={this.props.blogs.link}>Read More</a>
           </div>
