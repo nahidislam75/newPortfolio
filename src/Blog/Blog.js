@@ -11,9 +11,10 @@ const Blog = () => {
     const [blogs,setBlog]= useState(newData);
     return (
         <div className='blogPadding'>
-            <Row>
+            <h1 className='mineWord'>BLOGS OF MINE</h1>
+            <Row >
             {
-                blogs.map(blogs=><Col> <Cards blogs={blogs}></Cards></Col>)
+                blogs.map(blogs=><Col > <Cards  blogs={blogs} ></Cards></Col>)
             }
             </Row>
         </div>

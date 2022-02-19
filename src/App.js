@@ -6,7 +6,7 @@ import Poster from './Poster/Poster';
 
 function App() {
   return (
-    <div>
+    <div className='backColor'>
       <Nevber></Nevber>
       <Poster></Poster>
       <Blog></Blog>

@@ -6,8 +6,8 @@ class Cards extends Component {
   render() {
     return (
       <div className='container'>
-        <Card style={{ border:'none'}}>
-        <div className="box">
+        <Card style={{ border:'none', background:'black'}}>
+        <div className="box ">
           <span></span>
           <div className="content">
             <h2>Blog {this.props.blogs.id}</h2>

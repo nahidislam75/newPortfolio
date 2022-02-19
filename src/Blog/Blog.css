@@ -1,3 +1,7 @@
-/* .blogPadding{
-    padding-left: 3px;
-} */
+.blogPadding{
+    padding:15px;
+}
+.mineWord{
+    text-align: center;
+    color: aquamarine;
+}

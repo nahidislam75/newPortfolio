@@ -11,6 +11,25 @@
 .word{
     display: inline-block;
 }
+.removeUnderline{
+    text-decoration: none;
+}
+.picSize{
+    width: 450px;
+    height: 600px;
+    border-radius: 50PX;
+}
+.buttonWork{
+    background-color:black;
+    color: aquamarine;
+    border-radius: 20px;
+}
+.ok{
+    margin-top: 100px;
+}
+.wordColor{
+    color: aquamarine;
+}
 .word span{
     position: absolute;
     /* top: 0; */
